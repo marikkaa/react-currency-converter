@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgb(157, 144, 255), rgb(223, 164, 255));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Hind", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input {
+  font-size: 18px;
+  padding: 4px 7px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  font-family: "Hind", sans-serif;
+}
+
+select {
+  font-size: 18px;
+  padding: 4px 7px;
+  font-family: "Hind", sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 40px 35px;
+  border-radius: 5px;
+  color: rgb(18, 18, 18);
+  font-size: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
